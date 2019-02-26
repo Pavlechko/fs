@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+}
+
+.soll {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	max-width: 100%;
+	width: 120px;
+	transition: 1s;
+}
+
+.logo img:hover {
+	transition: 1s;
+	transform: rotate(360deg);
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.header-nav li {
+	list-style: none;
+	padding: 10px;
+}
+
+.header-nav a {
+	text-decoration: none;
+	color: inherit;
+}
+.header-nav a:hover {
+	background: purple;
+	color: orange;
+}
+
+hr {
+	position: relative;
+	color: blue;
+}
+
+h1 {
+	font-size: 16px;
+	color: purple;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+}
+
+.row div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row div:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.img-sky {
+	max-width: 100%;
+	width: 100px;
+	padding: 10px 10px 10px 0;
+	float: left;
+	flex-shrink: 0;
+}
+
+
+/*.img-sky:nth-child(even) {
+	float: left;
+}
+
+.img-sky:nth-child(odd) {
+	float: right;
+}*/
+
+/*.row .img-sky:nth-child(even) {
+	float: left;
+}
+
+.row .img-sky:nth-child(odd) {
+	float: right;
+}*/
+
+.col {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.link {
+	max-width: 100%;
+	width: 33%;
+	height: auto;
+	margin: 5px 0 auto;
+	padding: 0 5px;
+	border: 2px solid blue;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.link a {
+	transition: all, 2s;
+	text-decoration-line: none;
+	color: inherit;
+}
+
+.link a:hover {
+	color: green;
+}
+
+.link img {
+	max-width: 100%;
+	width: 100px;
+	padding: 20px 10px 10px 0;
+	float: left;
+}
+
+.foot-soll {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+.footre {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mini-logo img {
+	max-width: 100%;
+	width: 100px;
+	float: left;
+}
+
+.address {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 0;
+}
+
+address a {
+	text-decoration: none;
+	color: inherit;
+}
+
