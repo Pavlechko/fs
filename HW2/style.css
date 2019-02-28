@@ -1,0 +1,68 @@
+div {
+	padding: 15px;
+	border: 2px solid #000;
+}
+
+div>div>div>div>div {
+	background-color: #e1e1e1;
+}
+
+div>div>div>div {
+	background-color: #bbbbbb;
+}
+
+div>div>div {
+	background-color: #dddddd;
+}
+
+div>div {
+	background-color: #eeeeee;
+}
+
+div {
+	background-color: #cdcdcd;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li:first-child {
+	color: green;
+}
+
+li:nth-child(even) {
+	font-size: 20px;
+	/* отдельно на тег <а> не прописуется, 
+	потому что у неё родитель <li> 
+	и в тега <a> нет сестер. 
+	Но возможно я просто не понял 
+	как это сделать) */
+}
+
+li:nth-child(3n+1) {
+	width: 150px;
+	background-color: #ffff00;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: red;
+}
+
+li:before {
+	content: "- ";
+	/* каждая вторая имеет размер
+	в 20рх, по этому как в примере
+	у меня не выходит, все немного
+	сдвигается */
+}
+
+
+.vis {
+	border-style: none;
+	background-color: transparent
+}
